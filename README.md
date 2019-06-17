@@ -7,6 +7,8 @@ The first representation is the result of the Stanford parser execution on the i
 The second representation is a list of noun phrases present in the document as well as their start and end indexes.
 
 This code is meant to show the resolution of this problem in a functional manner.
+
+WARNING !!!
 The use of Stanford NLP here is deprecated. 
 It was replaced by Simple Core NLP (https://stanfordnlp.github.io/CoreNLP/simple.html). 
 Nevertheless, I kept the program as it is because of the start / end indexing in a document which is not possible in Simple Core NLP.
